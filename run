@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+docker build -t fft . && docker run fft -p 0.0.0.0:80:8000
